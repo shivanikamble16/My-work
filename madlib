@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+ int main() {
+ char colour[20];
+ char celebs[20];
+ char pluralnoun[20];
+ 
+ printf( "enter a colour :  ");
+ scanf("%s", colour);
+ printf( "enter a celebs :  ");
+ scanf("%s", celebs);
+ printf( "enter a pluralnoun :  ");
+ scanf("%s", pluralnoun);
+ 
+ printf("I like %s \n", colour) ;  
+ printf("%s are huge \n", celebs);
+ printf("huge is %s \n", pluralnoun);
+ 
+ 
+    return 0;
+}
