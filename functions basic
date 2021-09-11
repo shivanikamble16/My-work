@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+   sayhi("mike");
+    return 0;
+}
+void sayhi( char name []) {
+    printf("hey people its %s", name);
+}
