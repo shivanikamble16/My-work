@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    
+    
+    double num1;
+    double num2;
+    printf("Enter your first no : ");
+    scanf("%lf", &num1);
+    printf("Enter your second no.");
+    scanf("%lf", &num2);
+    printf("answer is %lf", num1 + num2 );
+    
+    
+    return 0;
+}
